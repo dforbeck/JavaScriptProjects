@@ -14,7 +14,18 @@ bmiMark = weightMark / (heightMark*heightMark);
 console.log('Mark BMI:' + bmiMark + ' '+  'John BMI:' + bmiJohn)
 
 //Find out if Mark is higher
-var isMarkBMIHigher = bmiMark > bmiJohn;
-console.log('Is the BMI for Mark higher than that of John?' + ' '+  isMarkBMIHigher);
-console.log('Is Mark\'s BMI higher than John\s?' + ' '+  isMarkBMIHigher);
+//var isMarkBMIHigher = bmiMark > bmiJohn;
+//console.log('Is the BMI for Mark higher than that of John?' + ' '+  isMarkBMIHigher);
+//console.log('Is Mark\'s BMI higher than John\s?' + ' '+  isMarkBMIHigher);
 //the second one uses 'escape' method to put apostrophe
+
+//OR use True/Fals statements
+
+if (bmiMark < bmiJohn) 
+{
+    console.log('Mark\s BMI is higher than John\s');
+}
+else
+{
+    console.log('John\s BMI is higher than Mar\s');
+}
