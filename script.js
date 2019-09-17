@@ -197,6 +197,8 @@ else
 }
 
 */
+
+/*
 //TERNARY OPERATOR
 
 var firstName = 'John';
@@ -214,6 +216,8 @@ console.log(drink);
 // } else {
 //     var drink = 'juice';
 // }
+
+*/
 
 /*
 //SWITCH Statement
@@ -253,6 +257,7 @@ switch(true)
 }
 */
 
+/*
 //TRUTHY AND FALSY VALUES
 var height;
 height = 23;  //if leave this out, declared, but not defined.
@@ -272,6 +277,9 @@ else {
 if (height =='23'){ // converts string to number and will keep going
     console.log('the == does type coercion');
 }
+
+*/
+
 
 
 
