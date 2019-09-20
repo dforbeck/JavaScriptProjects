@@ -171,5 +171,64 @@ console.log(john)
 
 */
 
+/*
 //LOOPS and ITERATIONS
+
+//FOR loop
+//print 1 -10
+for (var i = 0; i< 10; i++) //can do i += 2 to go by 2's
+    //count from 0 to 9, count by 1 and log i to console
+{
+    console.log(i)
+}
+
+//example
+var john =['John', 'Smith', 1972, 'teacher', false];
+for (var i =0; i<= john.length; i++) // put .length so can
+//account for things that we may add later
+{
+    console.log(john[i]);
+}
+
+//WHILE loop
+// only has the middle portion, the condition
+var i = 0; // must define the variable outside
+while (i <= john.length)
+{
+    console.log(john[i]);
+    i ++; // have to increment at end of each loop
+}
+
+*/
+
+//CONTINUE AND BREAK STATEMENTS
+//Break out of a loop or 
+//continue: quit current iteration and continue to next one
+
+//Quit exampl
+var john =['John', 'Smith', 1972, 'teacher', false];
+for (var i =0; i<= john.length; i++)
+{
+    //quit if not a string
+    if (typeof john[i] !== 'string') continue;
+     //!== means different
+    console.log(john[i]);
+}
+//Break example, gets out of loop altogether
+for (var i =0; i<= john.length; i++)
+{
+    //quit if not a string
+    if (typeof john[i] !== 'string') break;
+     //!== means different
+    console.log(john[i]);
+}
+
+//go backwards
+for (var i = john.length-1; i >= 0; i--)
+{
+    //quit if not a string
+    if (typeof john[i] !== 'string') continue;
+     //!== means different
+    console.log(john[i]);
+}
 
